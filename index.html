@@ -4,61 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
-  <title>Videos: borradores para Flavio</title>
+  <title>Saborcito: video para compartir</title>
   <style>
-    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #24251f; background: #f4f2eb; }
+    :root { color-scheme: light; font-family: system-ui, -apple-system, sans-serif; color: #15140f; background: #f6f5f1; }
     * { box-sizing: border-box; }
     body { margin: 0; }
-    main { width: min(100%, 430px); margin: auto; padding: 32px 18px 0; }
-    header { margin-bottom: 28px; }
-    .eyebrow { margin: 0 0 10px; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #62664f; }
-    h1 { margin: 0; font-size: 30px; line-height: 1.15; letter-spacing: -.04em; }
-    header p:last-child { margin: 12px 0 0; color: #5b5d53; line-height: 1.5; }
-    article { margin-bottom: 28px; padding-bottom: 28px; border-bottom: 1px solid #d7d8cb; }
-    h2 { margin: 0 0 8px; font-size: 23px; letter-spacing: -.025em; }
-    .description { margin: 0 0 12px; font-size: 15px; line-height: 1.5; }
-    .label { margin: 0 0 14px; color: #555a34; font-size: 11px; font-weight: 700; line-height: 1.6; }
-    video { display: block; width: 100%; max-height: 70svh; background: #151612; border-radius: 12px; }
-    a { color: inherit; }
-    footer { padding: 0 0 30px; color: #5b5d53; font-size: 13px; }
+    main { width: min(100%, 440px); margin: auto; padding: 24px 16px 40px; }
+    .flag { display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-bottom: 14px; }
+    .flag i { flex: 2; background: #fcd116; } .flag i + i { flex: 1; background: #1d5fc4; } .flag i + i + i { background: #ce1126; }
+    h1 { margin: 0 0 6px; font-size: 28px; line-height: 1.1; }
+    p { margin: 0 0 14px; line-height: 1.45; color: #4d4c45; }
+    video { display: block; width: 100%; aspect-ratio: 9 / 16; background: #06101f; border-radius: 12px; margin-bottom: 14px; }
+    .dl { display: block; text-align: center; padding: 16px; border-radius: 999px; background: #06101f; color: #fcd116; font-weight: 800; font-size: 18px; text-decoration: none; }
+    .note { font-size: 13px; margin-top: 12px; }
   </style>
 </head>
 <body>
   <main>
-    <header>
-      <p class="eyebrow">Para Flavio</p>
-      <h1>Videos: borradores para Flavio</h1>
-      <p>Tres videos para ver con calma.</p>
-    </header>
-    <article aria-labelledby="madrugada">
-      <h2 id="madrugada">Madrugada</h2>
-      <p class="description">Un cocinero antes del amanecer; solo música; termina en «Escríbenos».</p>
-      <p class="label">BORRADOR · hecho con IA · nada publicado</p>
-<p style="margin:12px 0;padding:10px;border:1px solid #c9a227;border-radius:8px;font-size:15px;line-height:1.4"><strong>Revisión independiente (4 nov):</strong> ninguno está listo para publicar. Faltan tomas alternativas para elegir (son créditos), la licencia de la música está sin verificar, y en «Madrugada» el teléfono cambia de forma a mitad de toma. Esta página es solo para tu gusto y para decidir los créditos.</p>
-      <video controls playsinline preload="metadata" aria-label="Madrugada">
-        <source src="CINE-1-madrugada-v1.mp4" type="video/mp4">
-        Tu navegador no permite reproducir este video. <a href="CINE-1-madrugada-v1.mp4">Abrir Madrugada</a>.
-      </video>
-    </article>
-    <article aria-labelledby="comision">
-      <h2 id="comision">Comisión</h2>
-      <p class="description">Arepas bajo el ejemplo de −$360; «sin comisión de plataforma».</p>
-      <p class="label">BORRADOR · hecho con IA · nada publicado</p>
-      <video controls playsinline preload="metadata" aria-label="Comisión">
-        <source src="POST-A-comision-con-comida.mp4" type="video/mp4">
-        Tu navegador no permite reproducir este video. <a href="POST-A-comision-con-comida.mp4">Abrir Comisión</a>.
-      </video>
-    </article>
-    <article aria-labelledby="restaurantes">
-      <h2 id="restaurantes">53 restaurantes</h2>
-      <p class="description">El post de datos 53/25/4.</p>
-      <p class="label">BORRADOR · hecho con IA · nada publicado</p>
-      <video controls playsinline preload="metadata" aria-label="53 restaurantes">
-        <source src="POST-B-53-restaurantes-con-musica.mp4" type="video/mp4">
-        Tu navegador no permite reproducir este video. <a href="POST-B-53-restaurantes-con-musica.mp4">Abrir 53 restaurantes</a>.
-      </video>
-    </article>
-    <footer>147.62 de 180 créditos</footer>
+    <div class="flag" aria-hidden="true"><i></i><i></i><i></i></div>
+    <h1>¿Antojo de sabor colombiano?</h1>
+    <p>Saborcito · video con Tintico · 23 s</p>
+    <video controls playsinline preload="metadata" src="saborcito-antojo.mp4"></video>
+    <a class="dl" href="saborcito-antojo.mp4" download="Saborcito-antojo.mp4">Descargar video</a>
+    <p class="note">En iPhone: toca «Descargar video», luego el ícono de compartir y «Guardar video».</p>
   </main>
 </body>
 </html>
